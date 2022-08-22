@@ -11,6 +11,7 @@
         <Label x:Name="Użytkownik" Content="Użytkownik" HorizontalAlignment="Left" Margin="66,46,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="UzytkownikTxt" HorizontalAlignment="Left" Margin="41,88,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="HasloTxt" HorizontalAlignment="Left" Margin="41,177,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="LoginBut" Content="Login" HorizontalAlignment="Left" Margin="81,239,0,0" VerticalAlignment="Top" Click="LoginBut_Click"/>
 
     </Grid>
 </Window>

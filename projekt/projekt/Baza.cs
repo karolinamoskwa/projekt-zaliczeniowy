@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace projekt
 {
-    internal class Baza : DbContext
+    public class Baza : DbContext
     {
         public Baza()
         {

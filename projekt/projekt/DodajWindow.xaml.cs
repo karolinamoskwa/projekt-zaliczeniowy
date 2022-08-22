@@ -10,26 +10,23 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace projekt
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Logika interakcji dla klasy DodajWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class DodajWindow : Window
     {
-        public Baza db;
-        public MainWindow()
+        public DodajWindow()
         {
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void DodajNazwa_Copy2_Click(object sender, RoutedEventArgs e)
         {
-            AdminWind ad = new AdminWind(this);
-            ad.ShowDialog();
+
         }
     }
 }

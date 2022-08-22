@@ -19,9 +19,24 @@ namespace projekt
     /// </summary>
     public partial class AdminWind : Window
     {
-        public AdminWind()
+        public MainWindow mw;
+        public AdminWind(MainWindow mw)
         {
             InitializeComponent();
+            this.mw = mw;
+        }
+
+        private void LoginBut_Click(object sender, RoutedEventArgs e)
+        {
+            if (UzytkownikTxt.Text == "admin" && HasloTxt.Text == "admin123")
+            {
+                AdminWind aw = new AdminWind(mw);
+                aw.ShowDialog();
+            }
+            else
+            {
+                MessageBox.Show("Podano złe dane");
+            }
         }
     }
 }

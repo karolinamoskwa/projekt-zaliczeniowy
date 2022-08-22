@@ -10,9 +10,15 @@
     <Compile Update="AdminWind.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="DodajWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="AdminWind.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DodajWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MainWindow.xaml">
