@@ -7,18 +7,18 @@
         mc:Ignorable="d"
         Title="DodajWindow" Height="450" Width="800">
     <Grid>
-        <DataGrid d:ItemsSource="{d:SampleData ItemCount=5}" Margin="10,10,584,279"/>
-        <Button x:Name="DodajNazwaBut" Content="Dodaj nazwę" HorizontalAlignment="Left" Margin="29,192,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="UsunNazwaBut" Content="Usuń nazwę" HorizontalAlignment="Left" Margin="132,192,0,0" VerticalAlignment="Top"/>
-        <DataGrid d:ItemsSource="{d:SampleData ItemCount=5}" Margin="278,10,316,279"/>
-        <Button x:Name="DodajTrybBut" Content="Dodaj tryb" HorizontalAlignment="Left" Margin="297,192,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="UsunTrybBut" Content="Usuń tryb" HorizontalAlignment="Left" Margin="400,192,0,0" VerticalAlignment="Top"/>
-        <DataGrid d:ItemsSource="{d:SampleData ItemCount=5}" Margin="546,10,48,279"/>
-        <Button x:Name="DodajWidokBut" Content="Dodaj widok" HorizontalAlignment="Left" Margin="565,192,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="UsunWidokBut" Content="Usuń widok" HorizontalAlignment="Left" Margin="668,192,0,0" VerticalAlignment="Top"/>
-        <DataGrid d:ItemsSource="{d:SampleData ItemCount=5}" Margin="194,232,184,70"/>
-        <Button x:Name="DodajGatunekBut" Content="Dodaj gatunek" HorizontalAlignment="Left" Margin="226,378,0,0" VerticalAlignment="Top" Height="23" Width="148" Click="DodajNazwa_Copy2_Click"/>
-        <Button x:Name="UsunGatunekBut" Content="Usuń gatunek" HorizontalAlignment="Left" Margin="444,378,0,0" VerticalAlignment="Top" Height="23" Width="138"/>
+        <DataGrid x:Name="NazwaGrid" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="10,10,584,279"/>
+        <Button x:Name="DodajNazwaBut" Content="Dodaj nazwę" HorizontalAlignment="Left" Margin="29,192,0,0" VerticalAlignment="Top" Click="DodajNazwaBut_Click"/>
+        <Button x:Name="UsunNazwaBut" Content="Usuń nazwę" HorizontalAlignment="Left" Margin="132,192,0,0" VerticalAlignment="Top" Click="UsunNazwaBut_Click"/>
+        <DataGrid x:Name="TrybGrid" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="278,10,316,279"/>
+        <Button x:Name="DodajTrybBut" Content="Dodaj tryb" HorizontalAlignment="Left" Margin="297,192,0,0" VerticalAlignment="Top" Click="DodajTrybBut_Click"/>
+        <Button x:Name="UsunTrybBut" Content="Usuń tryb" HorizontalAlignment="Left" Margin="400,192,0,0" VerticalAlignment="Top" Click="UsunTrybBut_Click"/>
+        <DataGrid x:Name="WidokGrid" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="546,10,48,279"/>
+        <Button x:Name="DodajWidokBut" Content="Dodaj widok" HorizontalAlignment="Left" Margin="565,192,0,0" VerticalAlignment="Top" Click="DodajWidokBut_Click"/>
+        <Button x:Name="UsunWidokBut" Content="Usuń widok" HorizontalAlignment="Left" Margin="668,192,0,0" VerticalAlignment="Top" Click="UsunWidokBut_Click"/>
+        <DataGrid x:Name="GatunkiGrid" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="194,232,184,70"/>
+        <Button x:Name="DodajGatunekBut" Content="Dodaj gatunek" HorizontalAlignment="Left" Margin="226,378,0,0" VerticalAlignment="Top" Height="23" Width="148" Click="DodajGatunekBut"/>
+        <Button x:Name="UsunGatunekBut" Content="Usuń gatunek" HorizontalAlignment="Left" Margin="444,378,0,0" VerticalAlignment="Top" Height="23" Width="138" Click="UsunGatunekBut_Click"/>
 
     </Grid>
 </Window>

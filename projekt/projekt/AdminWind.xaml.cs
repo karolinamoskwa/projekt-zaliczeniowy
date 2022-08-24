@@ -30,7 +30,7 @@ namespace projekt
         {
             if (UzytkownikTxt.Text == "admin" && HasloTxt.Text == "admin123")
             {
-                AdminWind aw = new AdminWind(mw);
+                DodajWindow aw = new DodajWindow(mw);
                 aw.ShowDialog();
             }
             else

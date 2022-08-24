@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 D:\nauka\studia\semestr4\programowanie\projekt\projekt-zaliczeniowy\projekt\projekt\App.xaml
-330608175
+7-2101144322
 
-13-277563857
+171774784710
 214-460454783
-AdminWind.xaml;DodajWindow.xaml;MainWindow.xaml;
+AdminWind.xaml;DodajGatunekWindow.xaml;DodajNazwaWindow.xaml;DodajTrybWindow.xaml;DodajWidokWindow.xaml;DodajWindow.xaml;MainWindow.xaml;
 
-False
+True
 

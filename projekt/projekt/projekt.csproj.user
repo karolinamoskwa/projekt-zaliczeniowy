@@ -10,12 +10,36 @@
     <Compile Update="AdminWind.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="DodajGatunekWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DodajNazwaWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DodajTrybWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DodajWidokWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="DodajWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="AdminWind.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DodajGatunekWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DodajNazwaWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DodajTrybWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DodajWidokWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="DodajWindow.xaml">

@@ -53,3 +53,9 @@ D:\nauka\studia\semestr4\programowanie\projekt\projekt-zaliczeniowy\projekt\proj
 D:\nauka\studia\semestr4\programowanie\projekt\projekt-zaliczeniowy\projekt\projekt\obj\Debug\net6.0-windows\projekt.pdb
 D:\nauka\studia\semestr4\programowanie\projekt\projekt-zaliczeniowy\projekt\projekt\obj\Debug\net6.0-windows\projekt.genruntimeconfig.cache
 D:\nauka\studia\semestr4\programowanie\projekt\projekt-zaliczeniowy\projekt\projekt\obj\Debug\net6.0-windows\ref\projekt.dll
+D:\nauka\studia\semestr4\programowanie\projekt\projekt-zaliczeniowy\projekt\projekt\obj\Debug\net6.0-windows\DodajNazwaWindow.g.cs
+D:\nauka\studia\semestr4\programowanie\projekt\projekt-zaliczeniowy\projekt\projekt\obj\Debug\net6.0-windows\DodajTrybWindow.g.cs
+D:\nauka\studia\semestr4\programowanie\projekt\projekt-zaliczeniowy\projekt\projekt\obj\Debug\net6.0-windows\DodajWindow.g.cs
+D:\nauka\studia\semestr4\programowanie\projekt\projekt-zaliczeniowy\projekt\projekt\obj\Debug\net6.0-windows\DodajNazwaWindow.baml
+D:\nauka\studia\semestr4\programowanie\projekt\projekt-zaliczeniowy\projekt\projekt\obj\Debug\net6.0-windows\DodajTrybWindow.baml
+D:\nauka\studia\semestr4\programowanie\projekt\projekt-zaliczeniowy\projekt\projekt\obj\Debug\net6.0-windows\DodajWindow.baml

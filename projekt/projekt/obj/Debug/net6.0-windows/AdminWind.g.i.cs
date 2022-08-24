@@ -93,7 +93,7 @@ namespace projekt {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/projekt;V1.0.0.0;component/adminwind.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/projekt;component/adminwind.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\AdminWind.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

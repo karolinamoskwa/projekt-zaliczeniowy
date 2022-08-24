@@ -24,7 +24,7 @@ namespace projekt
 
         public DbSet<Gatunek> Gatunki { get; set; }
         public DbSet<Widok> Widoki { get; set; }
-        public DbSet<Tryb> TtrygGry { get; set; }
+        public DbSet<Tryb> TrybGry { get; set; }
         public DbSet<NazwaGra> NazwaGry { get; set; } 
     }
 }
