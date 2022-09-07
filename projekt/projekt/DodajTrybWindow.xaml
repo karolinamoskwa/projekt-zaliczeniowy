@@ -7,6 +7,8 @@
         mc:Ignorable="d"
         Title="DodajTrybWindow" Height="450" Width="800">
     <Grid>
-        
+        <Label x:Name="Tryb" Content="Tryb" HorizontalAlignment="Left" Margin="58,42,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="TrybTxt" HorizontalAlignment="Left" Margin="44,116,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="ZapiszTrybBut" Content="Zapisz" HorizontalAlignment="Left" Margin="85,181,0,0" VerticalAlignment="Top" Click="ZapiszTrybBut_Click"/>
     </Grid>
 </Window>

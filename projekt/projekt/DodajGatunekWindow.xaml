@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="DodajGatunekWindow" Height="450" Width="800">
     <Grid>
-        
+        <Label x:Name="Gatunek" Content="Gatunek" HorizontalAlignment="Left" Margin="47,54,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="GatunekTxt" HorizontalAlignment="Left" Margin="14,118,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="ZapiszGatunekBut" Content="Zapisz" HorizontalAlignment="Left" Margin="84,171,0,0" VerticalAlignment="Top" Click="ZapiszGatunekBut_Click"/>
+
     </Grid>
 </Window>

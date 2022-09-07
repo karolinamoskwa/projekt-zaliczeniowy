@@ -19,9 +19,34 @@ namespace projekt
     /// </summary>
     public partial class DodajTrybWindow : Window
     {
-        public DodajTrybWindow()
+        public MainWindow mw;
+        public DodajWindow dw;
+        public DodajTrybWindow(MainWindow mw, DodajWindow dw)
         {
             InitializeComponent();
+
+            this.mw = mw;
+            this.dw = dw;
+        }
+
+        
+
+        private void ZapiszTrybBut_Click(object sender, RoutedEventArgs e)
+        {
+            if (string.IsNullOrEmpty(TrybTxt.Text))
+            {
+                MessageBox.Show("Wprowadzono złe dane");
+            }
+
+            else
+            {
+                Tryb tryb = new Tryb(TrybTxt.Text);
+                mw.db.TrybGry.Add(tryb);
+                mw.db.SaveChanges();
+
+                dw.Zaladuj();
+                this.Close();
+            }
         }
     }
 }

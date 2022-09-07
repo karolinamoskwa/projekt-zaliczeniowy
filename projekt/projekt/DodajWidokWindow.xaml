@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="DodajWidokWindow" Height="450" Width="800">
     <Grid>
-        
+        <Label x:Name="Widok" Content="Widok" HorizontalAlignment="Left" Margin="56,67,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="WidokTxt" HorizontalAlignment="Left" Margin="42,120,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="ZapiszWidokBut" Content="Zapisz" HorizontalAlignment="Left" Margin="83,175,0,0" VerticalAlignment="Top" Click="ZapiszWidokBut_Click"/>
+
     </Grid>
 </Window>

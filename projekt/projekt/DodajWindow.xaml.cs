@@ -26,7 +26,7 @@ namespace projekt
             this.mw = mw;
             Zaladuj();
         }
-
+        
         public void Zaladuj()
         {
             NazwaGrid.ItemsSource = null;
@@ -134,10 +134,30 @@ namespace projekt
             }
         }
 
-        private void DodajGatunekBut(object sender, RoutedEventArgs e)
+        private void DodajGatunekBut_Click(object sender, RoutedEventArgs e)
         {
             DodajGatunekWindow dw = new DodajGatunekWindow(mw, this);
             dw.ShowDialog();
+        }
+
+        private void NazwaGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void TrybGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void WidokGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void GatunkiGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
         }
     }
 }

@@ -7,7 +7,22 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button x:Name="adminButton" Content="Admin" HorizontalAlignment="Left" Margin="710,101,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="32*"/>
+            <ColumnDefinition Width="85*"/>
+            <ColumnDefinition Width="683*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="adminButton" Content="Admin" HorizontalAlignment="Left" Margin="593,101,0,0" VerticalAlignment="Top" Click="Button_Click" Grid.Column="2"/>
+        <Label x:Name="NazwaGry" Content="Nazwa gry" HorizontalAlignment="Left" Margin="22,39,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Grid.Column="1"/>
+        <ComboBox x:Name="NazwaCombo" HorizontalAlignment="Left" Margin="3,85,0,0" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="2" Grid.Column="1"/>
+        <Label x:Name="TypGry" Content="Tryb gry" HorizontalAlignment="Left" Margin="30,139,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+        <ComboBox x:Name="TypCombo" HorizontalAlignment="Left" Margin="3,182,0,0" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="2" SelectionChanged="TypCombo_SelectionChanged" Grid.Column="1"/>
+        <Label x:Name="WidokGry" Content="Widok gry" HorizontalAlignment="Left" Margin="23,230,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Grid.Column="1"/>
+        <ComboBox x:Name="WidokCombo" HorizontalAlignment="Left" Margin="3,285,0,0" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="2" Grid.Column="1"/>
+        <Label x:Name="GatunekGry" Content="Gatunek gry" HorizontalAlignment="Left" Margin="18,327,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Grid.Column="1"/>
+        <ComboBox x:Name="GatunekCombo" HorizontalAlignment="Left" Margin="3,370,0,0" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="2" Grid.Column="1"/>
+        <Label x:Name="CaloscLabel" Content="Całość" HorizontalAlignment="Left" Margin="88,0,0,0" VerticalAlignment="Center" Grid.Column="2"/>
+        <Button x:Name="CaloscBut" Grid.Column="2" Content="Połącz" HorizontalAlignment="Left" Margin="95,257,0,0" VerticalAlignment="Top" Click="CaloscBut_Click"/>
 
     </Grid>
 </Window>

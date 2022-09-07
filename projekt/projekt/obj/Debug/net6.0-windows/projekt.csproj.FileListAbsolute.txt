@@ -49,7 +49,6 @@ D:\nauka\studia\semestr4\programowanie\projekt\projekt-zaliczeniowy\projekt\proj
 D:\nauka\studia\semestr4\programowanie\projekt\projekt-zaliczeniowy\projekt\projekt\obj\Debug\net6.0-windows\projekt.csproj.CoreCompileInputs.cache
 D:\nauka\studia\semestr4\programowanie\projekt\projekt-zaliczeniowy\projekt\projekt\obj\Debug\net6.0-windows\projekt.csproj.CopyComplete
 D:\nauka\studia\semestr4\programowanie\projekt\projekt-zaliczeniowy\projekt\projekt\obj\Debug\net6.0-windows\projekt.dll
-D:\nauka\studia\semestr4\programowanie\projekt\projekt-zaliczeniowy\projekt\projekt\obj\Debug\net6.0-windows\refint\projekt.dll
 D:\nauka\studia\semestr4\programowanie\projekt\projekt-zaliczeniowy\projekt\projekt\obj\Debug\net6.0-windows\projekt.pdb
 D:\nauka\studia\semestr4\programowanie\projekt\projekt-zaliczeniowy\projekt\projekt\obj\Debug\net6.0-windows\projekt.genruntimeconfig.cache
 D:\nauka\studia\semestr4\programowanie\projekt\projekt-zaliczeniowy\projekt\projekt\obj\Debug\net6.0-windows\ref\projekt.dll
@@ -59,3 +58,8 @@ D:\nauka\studia\semestr4\programowanie\projekt\projekt-zaliczeniowy\projekt\proj
 D:\nauka\studia\semestr4\programowanie\projekt\projekt-zaliczeniowy\projekt\projekt\obj\Debug\net6.0-windows\DodajNazwaWindow.baml
 D:\nauka\studia\semestr4\programowanie\projekt\projekt-zaliczeniowy\projekt\projekt\obj\Debug\net6.0-windows\DodajTrybWindow.baml
 D:\nauka\studia\semestr4\programowanie\projekt\projekt-zaliczeniowy\projekt\projekt\obj\Debug\net6.0-windows\DodajWindow.baml
+D:\nauka\studia\semestr4\programowanie\projekt\projekt-zaliczeniowy\projekt\projekt\obj\Debug\net6.0-windows\DodajGatunekWindow.g.cs
+D:\nauka\studia\semestr4\programowanie\projekt\projekt-zaliczeniowy\projekt\projekt\obj\Debug\net6.0-windows\DodajWidokWindow.g.cs
+D:\nauka\studia\semestr4\programowanie\projekt\projekt-zaliczeniowy\projekt\projekt\obj\Debug\net6.0-windows\DodajGatunekWindow.baml
+D:\nauka\studia\semestr4\programowanie\projekt\projekt-zaliczeniowy\projekt\projekt\obj\Debug\net6.0-windows\DodajWidokWindow.baml
+D:\nauka\studia\semestr4\programowanie\projekt\projekt-zaliczeniowy\projekt\projekt\obj\Debug\net6.0-windows\refint\projekt.dll

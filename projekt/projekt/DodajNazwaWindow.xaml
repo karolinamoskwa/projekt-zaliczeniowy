@@ -7,6 +7,8 @@
         mc:Ignorable="d"
         Title="DodajNazwaWindow" Height="450" Width="800">
     <Grid>
-        
+        <Label x:Name="Nazwa" Content="Nazwa" HorizontalAlignment="Left" Margin="52,44,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="NazwaTxt" HorizontalAlignment="Left" Margin="25,86,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="ZapiszNazweBut" Content="Zapisz" HorizontalAlignment="Left" Margin="66,146,0,0" VerticalAlignment="Top" Click="ZapiszNazweBut_Click"/>
     </Grid>
 </Window>

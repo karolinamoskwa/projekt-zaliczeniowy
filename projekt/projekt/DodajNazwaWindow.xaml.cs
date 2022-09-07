@@ -19,9 +19,32 @@ namespace projekt
     /// </summary>
     public partial class DodajNazwaWindow : Window
     {
-        public DodajNazwaWindow()
+        public MainWindow mw;
+        public DodajWindow dw;
+        public DodajNazwaWindow(MainWindow mw, DodajWindow dw)
         {
             InitializeComponent();
+
+            this.mw = mw;
+            this.dw = dw;
+        }
+
+        private void ZapiszNazweBut_Click(object sender, RoutedEventArgs e)
+        {
+            if (string.IsNullOrEmpty(NazwaTxt.Text))
+            {
+                MessageBox.Show("Wprowadzono złe dane");
+            }
+
+            else
+            {
+                NazwaGra nazwa = new NazwaGra(NazwaTxt.Text);
+                mw.db.NazwaGry.Add(nazwa);
+                mw.db.SaveChanges();
+
+                dw.Zaladuj();
+                this.Close();
+            }
         }
     }
 }

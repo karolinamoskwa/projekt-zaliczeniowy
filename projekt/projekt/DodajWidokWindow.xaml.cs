@@ -19,9 +19,32 @@ namespace projekt
     /// </summary>
     public partial class DodajWidokWindow : Window
     {
-        public DodajWidokWindow()
+        public MainWindow mw;
+        public DodajWindow dw;
+        public DodajWidokWindow(MainWindow mw, DodajWindow dw)
         {
             InitializeComponent();
+
+            this.mw = mw;
+            this.dw = dw;
+        }
+
+        private void ZapiszWidokBut_Click(object sender, RoutedEventArgs e)
+        {
+            if (string.IsNullOrEmpty(WidokTxt.Text))
+            {
+                MessageBox.Show("Wprowadzono złe dane");
+            }
+
+            else
+            {
+                Widok widok = new Widok(WidokTxt.Text);
+                mw.db.Widoki.Add(widok);
+                mw.db.SaveChanges();
+
+                dw.Zaladuj();
+                this.Close();
+            }
         }
     }
 }

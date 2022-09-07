@@ -19,9 +19,33 @@ namespace projekt
     /// </summary>
     public partial class DodajGatunekWindow : Window
     {
-        public DodajGatunekWindow()
+        public MainWindow mw;
+        public DodajWindow dw;
+        public DodajGatunekWindow(MainWindow mw, DodajWindow dw)
         {
             InitializeComponent();
+
+            this.mw = mw;
+            this.dw = dw;
+        }
+
+
+        private void ZapiszGatunekBut_Click(object sender, RoutedEventArgs e)
+        {
+            if (string.IsNullOrEmpty(GatunekTxt.Text))
+            {
+                MessageBox.Show("Wprowadzono złe dane");
+            }
+
+            else
+            {
+                Gatunek gatunek = new Gatunek(GatunekTxt.Text);
+                mw.db.Gatunki.Add(gatunek);
+                mw.db.SaveChanges();
+
+                dw.Zaladuj();
+                this.Close();
+            }
         }
     }
 }
